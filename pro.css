@@ -1,0 +1,196 @@
+/*The main bar*/
+
+.topbar {
+  overflow: hidden;
+  padding: 1rem!important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  margin-bottom: 3rem!important;
+  background-color: #fff!important;
+  border-radius: .25rem!important;
+}
+
+.topbar a {
+  float: right;
+  color: #999999;
+  text-align: center;
+  padding:16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topbar a.home {
+  color: white;
+  font-weight: bold;
+  background-color:  #D7B97D;
+  border-radius:20px;
+}
+
+.topbar a.logout {
+  float: left;
+  color: #999999;
+  text-align: center;
+  padding:16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* Student file on the right */
+.mynav{
+  float: right;
+  width: 190px;
+}
+
+.mynav a{
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;/*  الخط  */
+  font-size: 25px;
+  text-align: right;
+  color: black ;
+  display: block;
+  margin-right: 20px; 
+}
+
+#logo{
+  width: 100%;
+  height: 100%;    
+}
+
+.mynav a:hover{
+  color: #D7B97D;
+}
+/*Student file */
+
+#main-doc{
+  margin-right:  250px;
+  padding: 0px 10px; 
+}
+
+/*#name{
+    text-align: center;
+}*/
+
+h1{
+  text-decoration: underline;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 25px;   
+  color: #6c757d;
+}
+
+#PP{
+  display: grid;
+  grid-template-columns: 150px 100px;
+  font-size: 20px;   
+  grid-auto-rows: auto;
+}
+
+li{
+  list-style: none;
+  margin-left: -40px;
+}
+
+/*#profile #abilities #qualifications #hobbies{
+    
+    width:70%;
+    margin: auto;
+}*/
+
+
+#abilities{
+ /* border-radius: 10px;
+  margin-top: 0px;*/
+  padding: 10px 30px 30px 0px;
+  border-radius: 10px;
+  background-color: #faf9f9;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 30% 70%;
+  grid-auto-rows: auto;
+  overflow: hidden;   
+}
+
+/*#abilities > div:nth-child(odd) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#abilities > div:nth-child(even){
+    padding: 10px 30px 30px 30px;
+}
+
+#abilities > div > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+#abilities > div{
+    background-color: lightgrey;   
+}*/
+
+
+#qualifications{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 30px 30px 0px;
+    border-radius: 10px;
+    background-color: #faf9f9;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: auto;
+    overflow: hidden;      
+}
+/*
+#qualifications > div:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#qualifications > div:nth-child(even){
+    padding: 10px 30px 30px 30px;
+}
+#qualifications > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+#qualifications > div{
+    background-color: lightgrey;
+    
+}
+
+
+#hobbies{
+    margin-top: 10px;
+    padding: 10px 30px 30px 0px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+         "r r";
+    overflow: scroll
+}*/
+.wrong a {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 25px;   
+  color: #6c757d;
+
+}
+
+@media screen and (max-height:450px){
+    #r{height: 100%;
+    width: 100%;}
+}
+
